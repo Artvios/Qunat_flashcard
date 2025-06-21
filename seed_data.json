@@ -1,0 +1,242 @@
+[
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440001",
+    "question_text": "What is the Black-Scholes formula used for?",
+    "hint_text": "European options pricing model",
+    "answer_text": "Pricing European-style options",
+    "Long_answer_text": "The Black-Scholes formula is a mathematical model used to calculate the theoretical price of European-style options. It considers factors like the current stock price, strike price, time to expiration, risk-free rate, and volatility to determine the fair value of an option.",
+    "tags": ["derivatives", "black-scholes"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440002",
+    "question_text": "What does VaR stand for and what does it measure?",
+    "hint_text": "Risk measurement metric",
+    "answer_text": "Value at Risk - measures potential losses",
+    "Long_answer_text": "VaR (Value at Risk) is a statistical measure that quantifies the maximum potential loss that a portfolio or investment might experience over a specified time period, given a certain confidence level. For example, a 1-day 95% VaR of $1 million means there's a 5% chance of losing more than $1 million in one day.",
+    "tags": ["risk-management", "var"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440003",
+    "question_text": "What is the difference between alpha and beta in finance?",
+    "hint_text": "Performance vs market correlation",
+    "answer_text": "Alpha measures excess return, beta measures market correlation",
+    "Long_answer_text": "Alpha measures the excess return of an investment relative to the return of a benchmark index. Beta measures the volatility or systematic risk of a security compared to the overall market. Alpha indicates performance above/below market, while beta indicates how much the security moves with the market.",
+    "tags": ["portfolio-theory", "capm"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440004",
+    "question_text": "What is the Capital Asset Pricing Model (CAPM)?",
+    "hint_text": "Risk-return relationship model",
+    "answer_text": "Model describing relationship between risk and expected return",
+    "Long_answer_text": "CAPM is a model that describes the relationship between systematic risk and expected return for assets. The formula is: Expected Return = Risk-free Rate + Beta × (Market Return - Risk-free Rate). It helps determine the required return for an investment given its risk level.",
+    "tags": ["capm", "portfolio-theory"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440005",
+    "question_text": "What is duration in bond pricing?",
+    "hint_text": "Price sensitivity to interest rates",
+    "answer_text": "Measure of bond price sensitivity to interest rate changes",
+    "Long_answer_text": "Duration measures the price sensitivity of a bond to changes in interest rates. It represents the weighted average time to receive the bond's cash flows. A duration of 5 means that for every 1% change in interest rates, the bond's price will change by approximately 5% in the opposite direction.",
+    "tags": ["fixed-income", "duration"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440006",
+    "question_text": "What is the difference between call and put options?",
+    "hint_text": "Buy vs sell rights",
+    "answer_text": "Call gives right to buy, put gives right to sell",
+    "Long_answer_text": "A call option gives the holder the right (but not obligation) to buy an underlying asset at a specified price within a certain time period. A put option gives the holder the right to sell an underlying asset at a specified price within a certain time period.",
+    "tags": ["derivatives", "options"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440007",
+    "question_text": "What is arbitrage?",
+    "hint_text": "Risk-free profit opportunity",
+    "answer_text": "Simultaneous buying and selling to profit from price differences",
+    "Long_answer_text": "Arbitrage is the practice of taking advantage of price differences between markets by simultaneously buying and selling identical or equivalent securities to make a risk-free profit. It helps ensure market efficiency by eliminating price discrepancies.",
+    "tags": ["arbitrage", "market-efficiency"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440008",
+    "question_text": "What is the Sharpe ratio?",
+    "hint_text": "Risk-adjusted return measure",
+    "answer_text": "Excess return per unit of risk",
+    "Long_answer_text": "The Sharpe ratio measures the excess return earned per unit of risk taken. It's calculated as (Portfolio Return - Risk-free Rate) / Standard Deviation of Portfolio. A higher Sharpe ratio indicates better risk-adjusted performance.",
+    "tags": ["performance-metrics", "sharpe-ratio"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440009",
+    "question_text": "What is a derivative?",
+    "hint_text": "Contract based on underlying asset",
+    "answer_text": "Financial contract whose value depends on an underlying asset",
+    "Long_answer_text": "A derivative is a financial contract whose value is derived from the performance of an underlying asset, index, or rate. Common derivatives include options, futures, forwards, and swaps. They are used for hedging, speculation, and arbitrage.",
+    "tags": ["derivatives", "basic-concepts"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440010",
+    "question_text": "What is the efficient market hypothesis?",
+    "hint_text": "Theory about market information efficiency",
+    "answer_text": "Markets fully reflect all available information",
+    "Long_answer_text": "The Efficient Market Hypothesis (EMH) states that financial markets are informationally efficient, meaning asset prices fully reflect all available information. This implies that it's impossible to consistently achieve returns exceeding average market returns on a risk-adjusted basis.",
+    "tags": ["market-efficiency", "emh"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440011",
+    "question_text": "What is convexity in bond pricing?",
+    "hint_text": "Second-order price sensitivity",
+    "answer_text": "Measure of how duration changes with interest rates",
+    "Long_answer_text": "Convexity measures the rate of change of duration with respect to interest rates. It's a second-order measure of price sensitivity that accounts for the curvature in the bond price-yield relationship. Higher convexity means the bond price is less sensitive to interest rate increases.",
+    "tags": ["fixed-income", "convexity"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440012",
+    "question_text": "What is the difference between systematic and unsystematic risk?",
+    "hint_text": "Market-wide vs specific risk",
+    "answer_text": "Systematic affects all securities, unsystematic is company-specific",
+    "Long_answer_text": "Systematic risk (market risk) affects the entire market and cannot be eliminated through diversification. Examples include interest rate changes, inflation, and economic recessions. Unsystematic risk is specific to individual companies or industries and can be reduced through diversification.",
+    "tags": ["risk-management", "systematic-risk"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440013",
+    "question_text": "What is a yield curve?",
+    "hint_text": "Graph of bond yields vs maturity",
+    "answer_text": "Plot of bond yields against their time to maturity",
+    "Long_answer_text": "A yield curve is a graph that plots the yields of bonds with equal credit quality but different maturity dates. It typically shows the relationship between interest rates and time to maturity. The shape of the yield curve provides insights into economic expectations and monetary policy.",
+    "tags": ["fixed-income", "yield-curve"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440014",
+    "question_text": "What is Monte Carlo simulation in finance?",
+    "hint_text": "Random sampling method for modeling",
+    "answer_text": "Statistical method using random sampling to model complex systems",
+    "Long_answer_text": "Monte Carlo simulation is a computational technique that uses random sampling to model the behavior of complex financial systems. It generates thousands of possible scenarios to estimate the probability of different outcomes, commonly used in option pricing, risk management, and portfolio optimization.",
+    "tags": ["monte-carlo", "quantitative-methods"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440015",
+    "question_text": "What is the Greeks in options trading?",
+    "hint_text": "Risk sensitivities of options",
+    "answer_text": "Measures of option price sensitivity to various factors",
+    "Long_answer_text": "The Greeks are risk sensitivities that measure how option prices change with respect to different variables. Delta measures price sensitivity to underlying asset price, Gamma measures Delta's rate of change, Theta measures time decay, Vega measures volatility sensitivity, and Rho measures interest rate sensitivity.",
+    "tags": ["derivatives", "options", "greeks"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440016",
+    "question_text": "What is credit risk?",
+    "hint_text": "Risk of default or non-payment",
+    "answer_text": "Risk that a borrower will default on their obligations",
+    "Long_answer_text": "Credit risk is the possibility that a borrower or counterparty will fail to meet their obligations in accordance with agreed terms. It includes default risk, credit spread risk, and downgrade risk. Credit risk is a major concern for banks, bond investors, and other lenders.",
+    "tags": ["credit-risk", "risk-management"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440017",
+    "question_text": "What is liquidity risk?",
+    "hint_text": "Risk of not being able to trade",
+    "answer_text": "Risk of being unable to buy or sell assets quickly",
+    "Long_answer_text": "Liquidity risk is the risk that an investor will not be able to buy or sell an investment quickly enough to prevent or minimize a loss. It occurs when there are few buyers or sellers in the market, leading to large bid-ask spreads or inability to execute trades at fair prices.",
+    "tags": ["liquidity-risk", "risk-management"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440018",
+    "question_text": "What is operational risk?",
+    "hint_text": "Risk from internal processes and systems",
+    "answer_text": "Risk of loss from inadequate internal processes or systems",
+    "Long_answer_text": "Operational risk is the risk of loss resulting from inadequate or failed internal processes, people, systems, or external events. It includes risks from human error, system failures, fraud, legal risks, and natural disasters. It's one of the three main types of risk in banking (along with credit and market risk).",
+    "tags": ["operational-risk", "risk-management"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440019",
+    "question_text": "What is market risk?",
+    "hint_text": "Risk from market price movements",
+    "answer_text": "Risk of losses due to adverse market price movements",
+    "Long_answer_text": "Market risk is the risk of losses in positions arising from movements in market prices. It includes equity risk, interest rate risk, currency risk, and commodity risk. Market risk affects all market participants and cannot be eliminated through diversification within the same market.",
+    "tags": ["market-risk", "risk-management"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440020",
+    "question_text": "What is interest rate risk?",
+    "hint_text": "Risk from changes in interest rates",
+    "answer_text": "Risk that interest rate changes will affect investment values",
+    "Long_answer_text": "Interest rate risk is the potential for investment losses that result from changes in interest rates. When interest rates rise, bond prices fall, and when rates fall, bond prices rise. This risk is particularly important for fixed-income securities and interest-sensitive investments.",
+    "tags": ["interest-rate-risk", "fixed-income"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440021",
+    "question_text": "What is a credit default swap (CDS)?",
+    "hint_text": "Insurance against credit events",
+    "answer_text": "Derivative that provides protection against credit events",
+    "Long_answer_text": "A Credit Default Swap (CDS) is a financial derivative that allows an investor to swap or offset their credit risk with another investor. The buyer pays periodic payments to the seller, and in return, receives a payoff if the underlying credit instrument defaults or experiences a credit event.",
+    "tags": ["derivatives", "credit-derivatives", "cds"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440022",
+    "question_text": "What is volatility in finance?",
+    "hint_text": "Measure of price fluctuation",
+    "answer_text": "Statistical measure of asset price dispersion",
+    "Long_answer_text": "Volatility measures the degree of variation in an asset's price over time. It's typically calculated as the standard deviation of returns. High volatility indicates large price swings, while low volatility suggests more stable prices. Volatility is a key input in option pricing models.",
+    "tags": ["volatility", "risk-metrics"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440023",
+    "question_text": "What is correlation in portfolio management?",
+    "hint_text": "Measure of how assets move together",
+    "answer_text": "Statistical measure of how two assets move in relation to each other",
+    "Long_answer_text": "Correlation measures the degree to which two assets move in relation to each other. It ranges from -1 to +1. Perfect positive correlation (+1) means assets move together, perfect negative correlation (-1) means they move in opposite directions, and zero correlation means no linear relationship.",
+    "tags": ["portfolio-theory", "correlation"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440024",
+    "question_text": "What is a swap in finance?",
+    "hint_text": "Agreement to exchange cash flows",
+    "answer_text": "Contract to exchange cash flows between two parties",
+    "Long_answer_text": "A swap is a derivative contract through which two parties exchange cash flows or liabilities from different financial instruments. Common types include interest rate swaps (exchanging fixed for floating rate payments) and currency swaps (exchanging principal and interest in different currencies).",
+    "tags": ["derivatives", "swaps"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440025",
+    "question_text": "What is the difference between forward and futures contracts?",
+    "hint_text": "OTC vs exchange-traded",
+    "answer_text": "Forwards are OTC, futures are exchange-traded",
+    "Long_answer_text": "Forward contracts are private agreements between two parties to buy/sell an asset at a future date for a predetermined price. Futures contracts are standardized agreements traded on exchanges. Futures have daily mark-to-market, margin requirements, and clearing house guarantees, while forwards do not.",
+    "tags": ["derivatives", "forwards", "futures"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440026",
+    "question_text": "What is hedging in finance?",
+    "hint_text": "Risk reduction strategy",
+    "answer_text": "Strategy to reduce investment risk through offsetting positions",
+    "Long_answer_text": "Hedging is a risk management strategy that involves taking an offsetting position in a related security to reduce the risk of adverse price movements. Common hedging instruments include options, futures, forwards, and swaps. The goal is to minimize potential losses rather than maximize profits.",
+    "tags": ["hedging", "risk-management"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440027",
+    "question_text": "What is the time value of money?",
+    "hint_text": "Money's value changes over time",
+    "answer_text": "Concept that money available now is worth more than the same amount in the future",
+    "Long_answer_text": "The time value of money is the concept that money available at the present time is worth more than the identical sum in the future due to its potential earning capacity. This principle underlies all financial calculations involving present value, future value, and discounting.",
+    "tags": ["time-value-money", "basic-concepts"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440028",
+    "question_text": "What is diversification?",
+    "hint_text": "Risk reduction through variety",
+    "answer_text": "Risk management technique that mixes different investments",
+    "Long_answer_text": "Diversification is a risk management strategy that mixes a wide variety of investments within a portfolio. The rationale is that a portfolio constructed of different kinds of assets will, on average, yield higher long-term returns and lower the risk of any individual holding or security.",
+    "tags": ["diversification", "portfolio-theory"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440029",
+    "question_text": "What is the efficient frontier?",
+    "hint_text": "Optimal risk-return combinations",
+    "answer_text": "Set of optimal portfolios offering maximum return for each risk level",
+    "Long_answer_text": "The efficient frontier is a set of optimal portfolios that offer the highest expected return for a defined level of risk or the lowest risk for a given level of expected return. Portfolios that lie below the efficient frontier are sub-optimal because they do not provide enough return for the level of risk.",
+    "tags": ["portfolio-theory", "efficient-frontier"]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440030",
+    "question_text": "What is basis risk?",
+    "hint_text": "Risk in hedging relationships",
+    "answer_text": "Risk that hedge won't perfectly offset underlying position",
+    "Long_answer_text": "Basis risk is the risk that a hedge will not be perfectly effective due to the difference between the price of the hedged asset and the price of the hedging instrument. It occurs when the correlation between the hedged position and the hedge instrument is not perfect, leading to potential losses despite hedging efforts.",
+    "tags": ["basis-risk", "hedging", "risk-management"]
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "eeac5261-23a9-4111-af44-f1037dfe2c01",
+    "question_text": "In a best-of-3 tennis match with equally skilled players, is it more likely to finish in 2 sets or 3 sets?",
+    "hint_text": "Compare $p^{2}+q^{2}$ and $2pq$ for $p=0.5$.",
+    "answer_text": "Equal (50%).",
+    "answer_explanation": "Let $p=q=0.5$. Then $P(2\\text{ sets}) = p^{2}+q^{2}=0.25+0.25=0.5$ and $P(3\\text{ sets}) = 2pq = 0.5$, so both outcomes are equally likely.",
+    "tags": ["probability"]
+  },
+  {
+    "id": "134a880e-d98f-410b-a6da-3b190a1384b9",
+    "question_text": "Three random points are placed independently on the edges of a square. What is the probability that all lie on distinct edges?",
+    "hint_text": "Favourable = $4\\times3\\times2$; total = $4^{3}$.",
+    "answer_text": "3⁄8 (≈ 37.5%).",
+    "answer_explanation": "Favourable assignments: $4\\times3\\times2 = 24$. Total outcomes: $4^{3}=64$. Probability $=24/64 = \\tfrac{3}{8}\\approx0.375$.",
+    "tags": ["probability"]
+  },
+  {
+    "id": "9065455b-7206-48a3-becd-2147b3d5cd52",
+    "question_text": "You may draw 2 cards without replacement from either a 52-card deck or a doubled 104-card deck. You win if both are red. Which pack maximises your chance?",
+    "hint_text": "Compare $\\tfrac{13}{52}\\tfrac{12}{51}$ with $\\tfrac{26}{104}\\tfrac{25}{103}$.",
+    "answer_text": "Choose the 104-card pack.",
+    "answer_explanation": "52-deck: $P=\\dfrac{13}{52}\\cdot\\dfrac{12}{51}\\approx0.0588$. 104-deck: $P=\\dfrac{26}{104}\\cdot\\dfrac{25}{103}\\approx0.0606$, which is higher.",
+    "tags": ["probability"]
+  },
+  {
+    "id": "bf48bffc-8479-4cae-894f-54ef3d61e98f",
+    "question_text": "What is the probability of getting an even number of heads in 100 fair coin tosses?",
+    "hint_text": "Use head–tail symmetry.",
+    "answer_text": "0.5",
+    "answer_explanation": "For a fair coin, parity is symmetric: $P(\\text{even heads}) = P(\\text{odd heads}) = \\tfrac12$.",
+    "tags": ["probability"]
+  },
+  {
+    "id": "88a08fdb-027e-4be6-8ddd-52658861cf9b",
+    "question_text": "In a best-of-7 World Series between equal teams, what is the chance the series lasts all 7 games?",
+    "hint_text": "Need a 3–3 split in the first 6 games.",
+    "answer_text": "20⁄64 (≈ 31.25%).",
+    "answer_explanation": "$P=\\dfrac{\\binom{6}{3}}{2^{6}} = \\dfrac{20}{64}=0.3125$ because a 3–3 split is required before game 7.",
+    "tags": ["probability"]
+  },
+  {
+    "id": "03ea9f00-d9f0-415b-bf37-6134a05f70f9",
+    "question_text": "Five balls (3 red, 2 black) are randomly ordered. What is the probability the two black balls are NOT adjacent?",
+    "hint_text": "Place B’s among R’s.",
+    "answer_text": "0.6",
+    "answer_explanation": "Choose 2 spots for B among 5: $\\binom{5}{2}=10$. Adjacent B’s occupy 4 pairs, leaving $10-4=6$ valid placements. Probability $=6/10=0.6$.",
+    "tags": ["probability"]
+  },
+  {
+    "id": "bf5e5c09-0a61-4e16-be2a-960510718e4f",
+    "question_text": "Expected number of tosses needed to see three consecutive heads with a fair coin?",
+    "hint_text": "Set up state-based recursion.",
+    "answer_text": "14",
+    "answer_explanation": "Solve $E_{0}=1+\\tfrac12E_{0}+\\tfrac12E_{1}$, $E_{1}=1+\\tfrac12E_{0}+\\tfrac12E_{2}$, $E_{2}=1+\\tfrac12E_{0}$ to get $E_{0}=14$ tosses.",
+    "tags": ["probability"]
+  },
+  {
+    "id": "24e7dd94-1e1f-480e-94ba-b5776034a829",
+    "question_text": "Draw two cards without replacement from a standard deck. Probability both cards have the same colour?",
+    "hint_text": "Sum red-red and black-black.",
+    "answer_text": "≈ 49.1 %",
+    "answer_explanation": "$P=\\dfrac{\\binom{26}{2}+\\binom{26}{2}}{\\binom{52}{2}}=\\dfrac{650}{1326}\\approx0.491$.",
+    "tags": ["probability"]
+  },
+  {
+    "id": "7f0713fc-bec0-4a86-9fa6-46da7f1d6d16",
+    "question_text": "You flip 17 coins and I flip 16. You win only if you get more heads—ties go to me. What is your winning probability?",
+    "hint_text": "Symmetry argument.",
+    "answer_text": "0.5",
+    "answer_explanation": "Pair your first 16 flips with mine; each pair is fair. The extra flip then mirrors tie-break symmetry, giving a 50 % chance overall.",
+    "tags": ["probability"]
+  },
+  {
+    "id": "48e60795-3de3-4e9e-b545-0333da0c87cf",
+    "question_text": "A line of 100 passengers boards a plane; the first picks a random seat, others take theirs if available, else random. Probability passenger 100 gets seat #100?",
+    "hint_text": "Only seats 1 or 100 matter.",
+    "answer_text": "0.5",
+    "answer_explanation": "Induction shows that after all choices, only seats 1 and 100 can remain for the last passenger, each with probability ½.",
+    "tags": ["probability"]
+  },
+  {
+    "id": "7f1d4790-660a-41de-b3fe-9a79afd22485",
+    "question_text": "Compute 39 × 41 mentally.",
+    "hint_text": "Use $(a-1)(a+1)=a^{2}-1$ with $a=40$.",
+    "answer_text": "1 599",
+    "answer_explanation": "$40^{2}-1=1600-1=1599$.",
+    "tags": ["mental-math"]
+  },
+  {
+    "id": "4333a6f9-6700-4c95-9e85-a3c44b348ccf",
+    "question_text": "What is the sum 1 + 2 + … + 100?",
+    "hint_text": "Formula $n(n+1)/2$.",
+    "answer_text": "5 050",
+    "answer_explanation": "$\\sum_{k=1}^{100}k=\\tfrac{100\\cdot101}{2}=5050$.",
+    "tags": ["mental-math"]
+  },
+  {
+    "id": "1ebbc3d3-2e49-496c-a6e4-7258d0a8b3c6",
+    "question_text": "How many digits are in $99^{99}$?",
+    "hint_text": "Digits = $\\lfloor\\log_{10}\\!N\\rfloor+1$.",
+    "answer_text": "198",
+    "answer_explanation": "$\\lfloor99\\log_{10}99\\rfloor+1\\approx\\lfloor197.6\\rfloor+1=198$ digits.",
+    "tags": ["mental-math"]
+  },
+  {
+    "id": "9579276c-85af-4ee9-97cd-fa8fe59b079a",
+    "question_text": "Find the final digit of $2^{230}$.",
+    "hint_text": "Cycle length 4.",
+    "answer_text": "4",
+    "answer_explanation": "$230\\bmod4=2$; pattern 2,4,8,6 ⇒ digit 4.",
+    "tags": ["mental-math"]
+  },
+  {
+    "id": "af7d2138-1884-4f35-ab4b-99648de8b9d4",
+    "question_text": "Smallest multiple of 15 whose digits are only 1’s and 0’s?",
+    "hint_text": "Ends with 0, digit-sum multiple of 3.",
+    "answer_text": "1 110",
+    "answer_explanation": "Number must end with 0 (factor 5) and have digit-sum divisible by 3; 1110 is minimal.",
+    "tags": ["mental-math"]
+  },
+  {
+    "id": "6b3f3b2f-0602-49a5-b354-c86881d58a3d",
+    "question_text": "Is 1 027 a prime number?",
+    "hint_text": "Test small divisors.",
+    "answer_text": "No – 13 × 79.",
+    "answer_explanation": "13 divides 1 027, so it is composite (1 027 = 13·79).",
+    "tags": ["mental-math"]
+  },
+  {
+    "id": "17075b8c-175c-40de-b273-42e9e586299d",
+    "question_text": "Compute 17 × 19 mentally.",
+    "hint_text": "Write as $18^{2}-1$.",
+    "answer_text": "323",
+    "answer_explanation": "$18^{2}-1=324-1=323$.",
+    "tags": ["mental-math"]
+  },
+  {
+    "id": "55aaf8a3-761e-4e35-bf75-611f24e6f475",
+    "question_text": "Quickly evaluate 333 × 11.",
+    "hint_text": "Split-add rule for ×11.",
+    "answer_text": "3 663",
+    "answer_explanation": "Insert sums: 3 (3+3) (3+3) 3 → 3663.",
+    "tags": ["mental-math"]
+  },
+  {
+    "id": "a02c394e-6bd5-4e85-b67e-60e5a7d18118",
+    "question_text": "Without a calculator, what is 25 × 44?",
+    "hint_text": "25×4×11.",
+    "answer_text": "1 100",
+    "answer_explanation": "25×44 = 100×11 = 1 100.",
+    "tags": ["mental-math"]
+  },
+  {
+    "id": "5d636bf8-ccce-4cd1-bcf5-4a0f31073e69",
+    "question_text": "Compute 37 × 13 mentally.",
+    "hint_text": "Decompose 13 = 10+3.",
+    "answer_text": "481",
+    "answer_explanation": "37×10 + 37×3 = 370 + 111 = 481.",
+    "tags": ["mental-math"]
+  },
+  {
+    "id": "e5eaf0e8-752d-43eb-bb46-fdf59793b246",
+    "question_text": "Three switches control three bulbs in another room; you may enter the bulb room only once. How can you tell which switch is which?",
+    "hint_text": "Use heat.",
+    "answer_text": "Turn A on 5 min, off; turn B on; enter.",
+    "answer_explanation": "Inside: lit bulb → B; warm-off bulb → A; cold bulb → C. Heat distinguishes the first switch.",
+    "tags": ["brain-teaser"]
+  },
+  {
+    "id": "48427ac2-8152-4bd9-9c73-2b8a67689357",
+    "question_text": "You have 3- and 5-gallon jugs. Measure exactly 4 gallons.",
+    "hint_text": "Goal: leave 4 in 5-jug.",
+    "answer_text": "Fill 5 → 3, empty 3, pour rest, refill 5, top off 3.",
+    "answer_explanation": "Sequence leaves 4 gal in the 5-gallon jug: (1) Fill 5, pour to 3. (2) Empty 3. (3) Pour remaining 2 into 3. (4) Refill 5. (5) Top off 3 → 4 left in 5.",
+    "tags": ["brain-teaser"]
+  },
+  {
+    "id": "06f90241-fd02-44e4-badb-46b90646d635",
+    "question_text": "A team wants the average of their salaries without revealing individuals. Is it possible?",
+    "hint_text": "Use a secret offset.",
+    "answer_text": "Yes.",
+    "answer_explanation": "Each person adds salary to a running total; initiator adds a secret number, then subtracts it at the end before dividing by n, hiding individual values.",
+    "tags": ["brain-teaser"]
+  },
+  {
+    "id": "23d25c24-3716-45fb-8ad4-7bb5d27c3748",
+    "question_text": "Monty Hall: 3 doors, 1 prize, host reveals a goat. Should you stick or switch?",
+    "hint_text": "Compare 1⁄3 vs 2⁄3.",
+    "answer_text": "Switch (2⁄3).",
+    "answer_explanation": "Initial door has $\\tfrac13$ chance; switching captures remaining $\\tfrac23$ probability of the prize.",
+    "tags": ["brain-teaser"]
+  },
+  {
+    "id": "62ac33a2-fd43-407b-b05a-f4d20a3927a8",
+    "question_text": "In a room of 10 people each pair shakes hands once. How many handshakes occur?",
+    "hint_text": "Use $n(n-1)/2$.",
+    "answer_text": "45",
+    "answer_explanation": "$\\binom{10}{2}=\\tfrac{10\\cdot9}{2}=45$ handshakes.",
+    "tags": ["brain-teaser"]
+  },
+  {
+    "id": "5fb29a54-6b75-47cd-a517-417d5813b6e5",
+    "question_text": "State Itô’s lemma for a twice-differentiable $f(x,t)$ where $dX_t = \\mu\\,dt + \\sigma\\,dW_t$.",
+    "hint_text": "Include drift & diffusion.",
+    "answer_text": "$df = f_x dX + f_t dt + \\tfrac12\\sigma^{2} f_{xx} dt$",
+    "answer_explanation": "Explicitly: $df = f_x\\,\\mu\\,dt + f_x\\,\\sigma\\,dW_t + f_t\\,dt + \\tfrac12\\sigma^{2}f_{xx}\\,dt$.",
+    "tags": ["stochastic-calculus"]
+  },
+  {
+    "id": "a0776592-6df7-4abf-8067-586923d944ff",
+    "question_text": "Find $f(t)$ so that $W_t^{2} - f(t)$ is a martingale for standard Brownian motion.",
+    "hint_text": "Apply Itô to $W_t^{2}$.",
+    "answer_text": "$f(t)=t$",
+    "answer_explanation": "Since $d(W_t^{2}) = 2W_t dW_t + dt$, subtracting $t$ removes the drift, leaving a martingale.",
+    "tags": ["stochastic-calculus"]
+  },
+  {
+    "id": "cd83147a-79b4-4c08-853b-8a0fc3069d04",
+    "question_text": "What is $\\operatorname{Var}(W_t)$ for standard Brownian motion?",
+    "hint_text": "$W_t\\sim\\mathcal N(0,t)$.",
+    "answer_text": "$t$",
+    "answer_explanation": "By definition $E[W_t^{2}]=t$ and $E[W_t]=0$, so $\\operatorname{Var}(W_t)=t$.",
+    "tags": ["stochastic-calculus"]
+  },
+  {
+    "id": "bd6eef57-52a5-4880-a7c7-0e4c3c1ebc16",
+    "question_text": "Write the SDE defining Geometric Brownian Motion (GBM).",
+    "hint_text": "$dS = \\mu S\,dt + \\sigma S\,dW$.",
+    "answer_text": "$dS_t = \\mu S_t dt + \\sigma S_t dW_t$",
+    "answer_explanation": "GBM assumes proportional drift $\\mu$ and volatility $\\sigma$: $\\dfrac{dS_t}{S_t} = \\mu\,dt + \\sigma\,dW_t$.",
+    "tags": ["stochastic-calculus"]
+  },
+  {
+    "id": "14ce18e4-83cc-412e-89a6-01ece7fa0d5c",
+    "question_text": "Give the explicit solution for GBM starting at $S_0$.",
+    "hint_text": "Integrate $dS/S$.",
+    "answer_text": "$S_t = S_0\\exp[(\\mu-\\tfrac12\\sigma^{2})t + \\sigma W_t]$",
+    "answer_explanation": "Integrating $\\dfrac{dS_t}{S_t}$ yields $\\ln S_t = \\ln S_0 + (\\mu-\\tfrac12\\sigma^{2})t + \\sigma W_t$, hence $S_t = S_0 e^{(\\mu-\\tfrac12\\sigma^{2})t + \\sigma W_t}$.",
+    "tags": ["stochastic-calculus"]
+  }
+]
